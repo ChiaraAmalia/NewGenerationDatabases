@@ -33,4 +33,22 @@ Nella figura sottostante è riportato lo schema E-R semplificato.
 <img src="https://github.com/ChiaraAmalia/NewGenerationDatabases/blob/main/schema_semplificato.png" height=375></p> 
 <p align="center">Schema E-R semplificato</p>
 
+## Progettazione degli aggregati
+Il processo di valutazione degli aggregati tramite il calcolo delle ridondanze (basato sulle query più frequenti e sui volumi delle varie entità e relazioni) ha portato i seguenti risultati:
++ Informazioni relative al **Cliente** e alla **Bolletta** sono state accorpate nell'entità radice **Contratto Cliente**
++ **Contratto Cliente** e **Guasto** sono rimaste separate
++ **Tecnico** e **Guasto** sono rimaste separate
++ Informazioni relative al **Guasto** sono state annidate nell'entità radice **Impianto**
+
+Di seguito sono riportati gli aggregati di livello 1:
+
+<p align="center">
+<img src="https://github.com/ChiaraAmalia/NewGenerationDatabases/blob/main/aggregati_liv1.png" height=375></p> 
+<p align="center">Aggregati di livello 1</p>
+
+Di seguito sono riportati gli aggregati finali:
+
+<p align="center">
+<img src="https://github.com/ChiaraAmalia/NewGenerationDatabases/blob/main/aggregati_finali.png" height=375></p> 
+<p align="center">Aggregati finali</p>
 
