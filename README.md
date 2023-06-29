@@ -14,3 +14,9 @@ I requisiti che la nostra base di dati deve soddisfare sono:
 + Memorizzazione dati del dipendente
 + Gestione del meccanismo di segnalazione guasti da parte degli utenti
 + Memorizzazione dati relativi agli impianti e relativi guasti.
+
+## Schema E-R di partenza
+
+<p align="center">
+<img src="https://github.com/ChiaraAmalia/NewGenerationDatabases/blob/main/schema_ER.png" height=375></p> 
+<p align="center">Schema E-R</p>
