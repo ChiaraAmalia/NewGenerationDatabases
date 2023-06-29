@@ -67,5 +67,11 @@ A seguito della fase di progettazione, si è proceduto nell'implementazione del 
 
 Maggiore documentazione e lo sviluppo delle query sono reperibili nella seguente [relazione](https://github.com/ChiaraAmalia/NewGenerationDatabases/blob/main/Progetto_NGDB_2023.pdf).
 
-## Collaboratori
+# Autori
+
+:woman_technologist: [Chiara Amalia Caporusso](https://github.com/ChiaraAmalia) 
+
+:woman_technologist: [Margherita Galeazzi](https://github.com/MargheritaGaleazzi)
+
+:man_technologist: [Alessandro Bedetta](https://github.com/Alessandrob99)
 
