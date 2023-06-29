@@ -20,3 +20,17 @@ I requisiti che la nostra base di dati deve soddisfare sono:
 <p align="center">
 <img src="https://github.com/ChiaraAmalia/NewGenerationDatabases/blob/main/schema_ER.png" height=375></p> 
 <p align="center">Schema E-R</p>
+
+## Schema semplificato
+Per una migliore progettazione, dallo schema E-R di partenza sono state applicate delle modifiche:
++ L'entita **Modem** è stata rimossa in quanto secondaria ai fini del progetto
++ L'entità **Email** è stata accorpata nell'entità cliente
++ L'entità **Attrezzatura** è stata rimossa in quanto secondaria ai fini del progetto
++ L'entità **Offerta** è stata annidata in **Contratto Cliente**; tale scelta è legata alle operazioni di modifica.
+
+Nella figura sottostante è riportato lo schema E-R semplificato.
+<p align="center">
+<img src="https://github.com/ChiaraAmalia/NewGenerationDatabases/blob/main/schema_semplificato.png" height=375></p> 
+<p align="center">Schema E-R semplificato</p>
+
+
