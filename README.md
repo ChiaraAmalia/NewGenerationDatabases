@@ -52,3 +52,5 @@ Di seguito sono riportati gli aggregati finali:
 <img src="https://github.com/ChiaraAmalia/NewGenerationDatabases/blob/main/aggregati_finali.png" height=375></p> 
 <p align="center">Aggregati finali</p>
 
+## Rappresentazione degli aggregati
+Al fine dei risultati ottenuti
