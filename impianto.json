@@ -1,0 +1,536 @@
+[{
+  "_id": 1,
+  "Codice": 1,
+  "Stato": "attivo",
+  "Tipo": "Fibra Ottica",
+  "Guasti": [
+    {
+      "Codice": 4,
+      "DataApertura": {
+        "$date": "2018-02-03T15:03:56.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2018-02-03T17:35:46.000Z"
+      },
+      "Segnalazioni": [
+        {
+          "RecapitoCl": "3795327112",
+          "Descrizione": "Nessun segnale",
+          "CodCliente": 1
+        }
+      ],
+      "GradoPericolo": "Alto"
+    }
+  ]
+},{
+  "_id": 2,
+  "Codice": 2,
+  "Stato": "malfunzionante",
+  "Tipo": "Fibra Ottica",
+  "Guasti": [
+    {
+      "Codice": 1,
+      "DataApertura": {
+        "$date": "2016-09-13T13:15:11.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2016-09-14T10:25:48.000Z"
+      },
+      "GradoPericolo": "Basso",
+      "Segnalazioni": [
+        {
+          "RecapitoCl": "3924577889",
+          "Descrizione": "Nessun segnale",
+          "CodCliente": 11
+        }
+      ]
+    },
+    {
+      "Codice": 5,
+      "DataApertura": {
+        "$date": "2019-06-15T09:56:13.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2019-06-15T10:36:53.000Z"
+      },
+      "GradoPericolo": "Basso",
+      "Segnalazioni": [
+        {
+          "RecapitoCl": "3452784554",
+          "Descrizione": "Luce rossa sul modem",
+          "CodCliente": 8
+        }
+      ]
+    },
+    {
+      "Codice": 22,
+      "DataApertura": {
+        "$date": "2023-06-03T12:01:15.000Z"
+      },
+      "DataChiusura": null,
+      "Segnalazioni": [
+        {
+          "CodCliente": 4,
+          "RecapitoCl": "3549328123",
+          "Descrizione": "segnale internet assente"
+        },
+        {
+          "CodCliente": 7,
+          "RecapitoCl": "3754938211",
+          "Descrizione": "segnale telefonico assente"
+        },
+        {
+          "CodCliente": 9,
+          "RecapitoCl": "3329845362",
+          "Descrizione": "Non funziona internet"
+        }
+      ],
+      "GradoPericolo": "Medio"
+    }
+  ]
+},{
+  "_id": 3,
+  "Codice": 3,
+  "Stato": "attivo",
+  "Tipo": "Linea Rame",
+  "Guasti": [
+    {
+      "Codice": 14,
+      "DataApertura": {
+        "$date": "2020-07-17T09:15:55.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2020-07-24T16:45:37.000Z"
+      },
+      "GradoPericolo": "Medio",
+      "Segnalazioni": [
+        {
+          "CodCliente": 14,
+          "RecapitoCl": "3935748239",
+          "Descrizione": "Internet non funziona"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 4,
+  "Codice": 4,
+  "Stato": "attivo",
+  "Tipo": "Piastra Utente",
+  "Guasti": [
+    {
+      "Codice": 2,
+      "DataApertura": {
+        "$date": "2016-12-20T11:02:13.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2016-12-23T09:03:45.000Z"
+      },
+      "GradoPericolo": "Basso",
+      "Segnalazioni": [
+        {
+          "CodCliente": 2,
+          "RecapitoCl": "3905542440",
+          "Descrizione": "Errore di configurazione"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 5,
+  "Codice": 5,
+  "Stato": "attivo",
+  "Tipo": "Linea Rame",
+  "Guasti": [
+    {
+      "Codice": 3,
+      "DataApertura": {
+        "$date": "2017-05-28T14:05:33.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2017-05-28T16:06:39.000Z"
+      },
+      "GradoPericolo": "Medio",
+      "Segnalazioni": [
+        {
+          "CodCliente": 14,
+          "RecapitoCl": "3924577889",
+          "Descrizione": "segnale internet assente"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 6,
+  "Codice": 6,
+  "Stato": "attivo",
+  "Tipo": "Linea Rame",
+  "Guasti": [
+    {
+      "Codice": 7,
+      "DataApertura": {
+        "$date": "2019-11-15T17:15:00.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2019-11-15T18:05:46.000Z"
+      },
+      "GradoPericolo": "Basso",
+      "Segnalazioni": [
+        {
+          "CodCliente": 4,
+          "RecapitoCl": "3694453264",
+          "Descrizione": "Problemi con la rete"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 7,
+  "Codice": 7,
+  "Stato": "attivo",
+  "Tipo": "Linea Rame",
+  "Guasti": [
+    {
+      "Codice": 8,
+      "DataApertura": {
+        "$date": "2019-12-03T11:17:59.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2019-12-04T13:45:06.000Z"
+      },
+      "GradoPericolo": "Basso",
+      "Segnalazioni": [
+        {
+          "CodCliente": 2,
+          "RecapitoCl": "3905542440",
+          "Descrizione": "Segnale wi-fi assente"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 8,
+  "Codice": 8,
+  "Stato": "attivo",
+  "Tipo": "Piastra Utente",
+  "Guasti": [
+    {
+      "Codice": 17,
+      "DataApertura": {
+        "$date": "2020-10-01T12:34:23.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2020-10-02T08:15:47.000Z"
+      },
+      "GradoPericolo": "Alto",
+      "Segnalazioni": {
+        "CodCliente": 12,
+        "RecapitoCl": "3492020394",
+        "Descrizione": "Non riesco a chiamare"
+      }
+    }
+  ]
+},{
+  "_id": 9,
+  "Codice": 9,
+  "Stato": "attivo",
+  "Tipo": "Piastra Utente",
+  "Guasti": [
+    {
+      "Codice": 9,
+      "DataApertura": {
+        "$date": "2020-02-23T09:14:07.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2020-02-23T17:35:40.000Z"
+      },
+      "GradoPericolo": "Alto",
+      "Segnalazioni": [
+        {
+          "CodCliente": 8,
+          "RecapitoCl": "3452784554",
+          "Descrizione": "Segnale telefonico assente, avvistamento incendio nei dintorni"
+        },
+        {
+          "CodCliente": 3,
+          "RecapitoCl": "3493845271",
+          "Descrizione": "Incendio"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 10,
+  "Codice": 10,
+  "Stato": "attivo",
+  "Tipo": "Fibra Ottica",
+  "Guasti": [
+    {
+      "Codice": 10,
+      "DataApertura": {
+        "$date": "2020-07-01T08:12:45.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2020-07-02T10:13:43.000Z"
+      },
+      "GradoPericolo": "Basso",
+      "Segnalazioni": [
+        {
+          "CodCliente": 13,
+          "RecapitoCl": "3229384371",
+          "Descrizione": "Segnale internet debole"
+        }
+      ]
+    },
+    {
+      "Codice": 18,
+      "DataApertura": {
+        "$date": "2020-12-30T18:30:35.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2021-01-02T09:05:23.000Z"
+      },
+      "GradoPericolo": "Medio",
+      "Segnalazioni": [
+        {
+          "CodCliente": 6,
+          "RecapitoCl": "3795267883",
+          "Descrizione": "segnale telefonico assente"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 11,
+  "Codice": 11,
+  "Stato": "attivo",
+  "Tipo": "Fibra Ottica",
+  "Guasti": []
+},{
+  "_id": 12,
+  "Codice": 12,
+  "Stato": "malfunzionante",
+  "Tipo": "Fibra Ottica",
+  "Guasti": [
+    {
+      "Codice": 19,
+      "DataApertura": {
+        "$date": "2023-05-15T08:40:35.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2023-05-15T15:23:34.000Z"
+      },
+      "GradoPericolo": "Medio",
+      "Segnalazioni": [
+        {
+          "CodCliente": 9,
+          "RecapitoCl": "3744839234",
+          "Descrizione": "Problemi a chiamare"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 13,
+  "Codice": 13,
+  "Stato": "attivo",
+  "Tipo": "Linea Rame",
+  "Guasti": [
+    {
+      "Codice": 11,
+      "DataApertura": {
+        "$date": "2020-07-03T09:13:15.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2020-07-03T19:30:34.000Z"
+      },
+      "GradoPericolo": "Medio",
+      "Segnalazioni": [
+        {
+          "CodCliente": 7,
+          "RecapitoCl": "3928473465",
+          "Descrizione": "Ho problemi con la connessione"
+        },
+        {
+          "CodCliente": 12,
+          "RecapitoCl": "3392445743",
+          "Descrizione": "Segnale internet e telefonico completamente assenti"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 14,
+  "Codice": 14,
+  "Stato": "attivo",
+  "Tipo": "Linea Rame",
+  "Guasti": []
+},{
+  "_id": 15,
+  "Codice": 15,
+  "Stato": "attivo",
+  "Tipo": "Piastra Utente",
+  "Guasti": [
+    {
+      "Codice": 16,
+      "DataApertura": {
+        "$date": "2020-09-15T18:16:18.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2020-09-16T09:05:23.000Z"
+      },
+      "GradoPericolo": "Basso",
+      "Segnalazioni": [
+        {
+          "CodCliente": 1,
+          "RecapitoCl": "3375833299",
+          "Descrizione": "Problemi con il wi-fi"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 16,
+  "Codice": 16,
+  "Stato": "attivo",
+  "Tipo": "Piastra Utente",
+  "Guasti": [
+    {
+      "Codice": 20,
+      "DataApertura": {
+        "$date": "2021-01-02T09:03:12.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2021-01-03T09:05:23.000Z"
+      },
+      "GradoPericolo": "Medio",
+      "Segnalazioni": [
+        {
+          "CodCliente": 4,
+          "RecapitoCl": "3694453264",
+          "Descrizione": "segnale acustico assente"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 17,
+  "Codice": 17,
+  "Stato": "attivo",
+  "Tipo": "Fibra Ottica",
+  "Guasti": [
+    {
+      "Codice": 21,
+      "DataApertura": {
+        "$date": "2023-05-31T08:15:31.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2023-06-03T00:00:00.000Z"
+      },
+      "GradoPericolo": "Medio",
+      "Segnalazioni": [
+        {
+          "CodCliente": 6,
+          "RecapitoCl": "3472819284",
+          "Descrizione": "Il modem ha una luce rossa da ieri"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 18,
+  "Codice": 18,
+  "Stato": "attivo",
+  "Tipo": "Fibra Ottica",
+  "Guasti": [
+    {
+      "Codice": 6,
+      "DataApertura": {
+        "$date": "2019-06-23T11:02:13.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2019-06-25T15:03:30.000Z"
+      },
+      "GradoPericolo": "Basso",
+      "Segnalazioni": [
+        {
+          "CodCliente": 8,
+          "RecapitoCl": "3452784554",
+          "Descrizione": "Il wi-fi non funziona"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 19,
+  "Codice": 19,
+  "Stato": "attivo",
+  "Tipo": "Linea Rame",
+  "Guasti": [
+    {
+      "Codice": 13,
+      "DataApertura": {
+        "$date": "2020-07-15T16:30:15.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2020-07-25T08:06:20.000Z"
+      },
+      "GradoPericolo": "Medio",
+      "Segnalazioni": [
+        {
+          "CodCliente": 10,
+          "RecapitoCl": "3493355262",
+          "Descrizione": "Il telefono non permette di effettuare e ricevere chiamate"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 20,
+  "Codice": 20,
+  "Stato": "attivo",
+  "Tipo": "Fibra Ottica",
+  "Guasti": []
+},{
+  "_id": 21,
+  "Codice": 21,
+  "Stato": "attivo",
+  "Tipo": "Fibra Ottica",
+  "Guasti": [
+    {
+      "Codice": 15,
+      "DataApertura": {
+        "$date": "2020-08-30T14:16:18.000Z"
+      },
+      "DataChiusura": {
+        "$date": "2020-09-10T09:05:23.000Z"
+      },
+      "GradoPericolo": "Basso",
+      "Segnalazioni": [
+        {
+          "CodCliente": 15,
+          "RecapitoCl": "3375833299",
+          "Descrizione": "Problemi con il wi-fi"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": 22,
+  "Codice": 22,
+  "Stato": "attivo",
+  "Tipo": "Linea Rame",
+  "Guasti": []
+},{
+  "_id": 23,
+  "Codice": 23,
+  "Stato": "attivo",
+  "Tipo": "Fibra Ottica",
+  "Guasti": []
+},{
+  "_id": 24,
+  "Codice": 24,
+  "Stato": "attivo",
+  "Tipo": "Linea Rame",
+  "Guasti": []
+}]

@@ -1,0 +1,530 @@
+[{
+  "_id": 1,
+  "Codice": 1,
+  "CF": "SSSNLM70C03G273K",
+  "Nome": "Anselmo",
+  "Cognome": "Sassi",
+  "DataNasc": {
+    "$date": "1970-03-29T23:00:00.000Z"
+  },
+  "Skill": "base",
+  "Via": "via Leopardi",
+  "Ncivico": 30,
+  "Cap": 23098,
+  "Citta": "Rovereto",
+  "NguastiRip": 5,
+  "Contratto": {
+    "Codice": "CD00000001",
+    "Data": {
+      "$date": "2000-07-13T00:00:00.000Z"
+    },
+    "Tipo": "indeterminato",
+    "Durata": null,
+    "Stato": "attivo"
+  },
+  "Riparazioni": [
+    {
+      "CodGuasto": 3,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 4,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 6,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 9,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 11,
+      "Stato": "effettuata"
+    }
+  ]
+},{
+  "_id": 2,
+  "Codice": 2,
+  "CF": "BTTHLN77C47D612H",
+  "Nome": "Helen",
+  "Cognome": "Bettini",
+  "DataNasc": {
+    "$date": "1977-03-06T23:00:00.000Z"
+  },
+  "Skill": "base",
+  "Via": "via Asiaghi",
+  "Ncivico": 23,
+  "Cap": 94387,
+  "Citta": "Firenze",
+  "NguastiRip": 2,
+  "Contratto": {
+    "Codice": "CD00000002",
+    "Data": {
+      "$date": "2016-05-27T00:00:00.000Z"
+    },
+    "Tipo": "determinato",
+    "Durata": 20,
+    "Stato": "cessato"
+  },
+  "Riparazioni": [
+    {
+      "CodGuasto": 1,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 2,
+      "Stato": "effettuata"
+    }
+  ]
+},{
+  "_id": 3,
+  "Codice": 3,
+  "CF": "BRNVSS65P44F205F",
+  "Nome": "Vanessa",
+  "Cognome": "Barone",
+  "DataNasc": {
+    "$date": {
+      "$numberLong": "-136515600000"
+    }
+  },
+  "Skill": "base",
+  "Via": "via Lonelli",
+  "Ncivico": 87,
+  "Cap": 4392,
+  "Citta": "Milano",
+  "NguastiRip": 3,
+  "Contratto": {
+    "Codice": "CD00000003",
+    "Data": {
+      "$date": "2019-09-11T00:00:00.000Z"
+    },
+    "Tipo": "determinato",
+    "Durata": 24,
+    "Stato": "attivo"
+  },
+  "Riparazioni": [
+    {
+      "CodGuasto": 7,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 15,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 16,
+      "Stato": "effettuata"
+    }
+  ]
+},{
+  "_id": 4,
+  "Codice": 4,
+  "CF": "CSTLBN85A28A944T",
+  "Nome": "Albano",
+  "Cognome": "Castellani",
+  "DataNasc": {
+    "$date": "1985-01-27T23:00:00.000Z"
+  },
+  "Skill": "base",
+  "Via": "via Giusti",
+  "Ncivico": 56,
+  "Cap": 51235,
+  "Citta": "Torino",
+  "NguastiRip": 2,
+  "Contratto": {
+    "Codice": "CD00000004",
+    "Data": {
+      "$date": "2020-05-27T00:00:00.000Z"
+    },
+    "Tipo": "determinato",
+    "Durata": 12,
+    "Stato": "attivo"
+  },
+  "Riparazioni": [
+    {
+      "CodGuasto": 13,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 18,
+      "Stato": "effettuata"
+    }
+  ],
+  "Durata": null,
+  "Tipo": "indeterminato"
+},{
+  "_id": 5,
+  "Codice": 5,
+  "CF": "MRCDZN62C63C351K",
+  "Nome": "Domiziana",
+  "Cognome": "Marchesi",
+  "DataNasc": {
+    "$date": {
+      "$numberLong": "-245466000000"
+    }
+  },
+  "Skill": "base",
+  "Via": "via Orante",
+  "Ncivico": 26,
+  "Cap": 16537,
+  "Citta": "Catania",
+  "NguastiRip": 3,
+  "Contratto": {
+    "Codice": "CD00000005",
+    "Data": {
+      "$date": "2018-06-10T00:00:00.000Z"
+    },
+    "Tipo": "determinato",
+    "Durata": 30,
+    "Stato": "attivo"
+  },
+  "Riparazioni": [
+    {
+      "CodGuasto": 5,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 8,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 20,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 22,
+      "Stato": "in corso"
+    }
+  ]
+},{
+  "_id": 6,
+  "Codice": 6,
+  "CF": "DNILCN78D25L219W",
+  "Nome": "Luciano",
+  "Cognome": "Diana",
+  "DataNasc": {
+    "$date": "1978-04-24T23:00:00.000Z"
+  },
+  "Skill": "base",
+  "Via": "via Onesti",
+  "Ncivico": 57,
+  "Cap": 62850,
+  "Citta": "Torino",
+  "NguastiRip": 4,
+  "Contratto": {
+    "Codice": "CD00000006",
+    "Data": {
+      "$date": "2002-09-11T00:00:00.000Z"
+    },
+    "Tipo": "indeterminato",
+    "Durata": null,
+    "Stato": "attivo"
+  },
+  "Riparazioni": [
+    {
+      "CodGuasto": 3,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 4,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 13,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 15,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 20,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 22,
+      "Stato": "in corso"
+    }
+  ]
+},{
+  "_id": 7,
+  "Codice": 7,
+  "CF": "LLLRCC72L29H501P",
+  "Nome": "Rocco",
+  "Cognome": "Lolli",
+  "DataNasc": {
+    "$date": "1972-07-28T22:00:00.000Z"
+  },
+  "Skill": "base",
+  "Via": "via Destri",
+  "Ncivico": 43,
+  "Cap": 96734,
+  "Citta": "Roma",
+  "NguastiRip": 2,
+  "Contratto": {
+    "Codice": "CD00000007",
+    "Data": {
+      "$date": "2015-11-17T00:00:00.000Z"
+    },
+    "Tipo": "determinato",
+    "Durata": 20,
+    "Stato": "cessato"
+  },
+  "Riparazioni": [
+    {
+      "CodGuasto": 1,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 2,
+      "Stato": "effettuata"
+    }
+  ]
+},{
+  "_id": 8,
+  "Codice": 8,
+  "CF": "DMRNIO94E01A662N",
+  "Nome": "Ione",
+  "Cognome": "Demarchi",
+  "DataNasc": {
+    "$date": "1994-04-30T22:00:00.000Z"
+  },
+  "Skill": "base",
+  "Via": "via Pantini",
+  "Ncivico": 55,
+  "Cap": 87564,
+  "Citta": "Bari",
+  "NguastiRip": 5,
+  "Contratto": {
+    "Codice": "CD00000008",
+    "Data": {
+      "$date": "2019-04-28T00:00:00.000Z"
+    },
+    "Tipo": "determinato",
+    "Durata": 24,
+    "Stato": "attivo"
+  },
+  "Riparazioni": [
+    {
+      "CodGuasto": 6,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 9,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 11,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 16,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 18,
+      "Stato": "effettuata"
+    }
+  ]
+},{
+  "_id": 9,
+  "Codice": 9,
+  "CF": "RCCBTN85A26D969U",
+  "Nome": "Ubertino",
+  "Cognome": "Ricci",
+  "DataNasc": {
+    "$date": "1985-01-25T23:00:00.000Z"
+  },
+  "Skill": "giuntista",
+  "Via": "via Ungaretti",
+  "Ncivico": 34,
+  "Cap": 86243,
+  "Citta": "Genova",
+  "NguastiRip": 1,
+  "Contratto": {
+    "Codice": "CD00000009",
+    "Data": {
+      "$date": "2020-09-03T00:00:00.000Z"
+    },
+    "Tipo": "determinato",
+    "Durata": 9,
+    "Stato": "attivo"
+  },
+  "Riparazioni": [
+    {
+      "CodGuasto": 21,
+      "Stato": "effettuata"
+    }
+  ]
+},{
+  "_id": 11,
+  "Codice": 11,
+  "CF": "MGNGNN87T04F839D",
+  "Nome": "Gianni",
+  "Cognome": "Magnani",
+  "DataNasc": {
+    "$date": "1987-12-03T23:00:00.000Z"
+  },
+  "Skill": "giuntista",
+  "Via": "via Manzoni",
+  "Ncivico": 85,
+  "Cap": 74632,
+  "Citta": "Napoli",
+  "NguastiRip": 3,
+  "Contratto": {
+    "Codice": "CD00000011",
+    "Data": {
+      "$date": "2005-06-21T00:00:00.000Z"
+    },
+    "Tipo": "indeterminato",
+    "Durata": null,
+    "Stato": "attivo"
+  },
+  "Riparazioni": [
+    {
+      "CodGuasto": 10,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 12,
+      "Stato": "effettuata"
+    },
+    {
+      "CodGuasto": 14,
+      "Stato": "effettuata"
+    }
+  ]
+},{
+  "_id": 12,
+  "Codice": 12,
+  "CF": "DPTNNN89L48G273O",
+  "Nome": "Antonina",
+  "Cognome": "DiPietro",
+  "DataNasc": {
+    "$date": "1989-07-07T22:00:00.000Z"
+  },
+  "Skill": "centrale telefonica",
+  "Via": "via Pirandello",
+  "Ncivico": 65,
+  "Cap": 27398,
+  "Citta": "Palermo",
+  "NguastiRip": 0,
+  "Contratto": {
+    "Codice": "CD00000012",
+    "Data": {
+      "$date": "2020-10-23T00:00:00.000Z"
+    },
+    "Tipo": "determinato",
+    "Durata": 12,
+    "Stato": "attivo"
+  },
+  "Riparazioni": []
+},{
+  "_id": 13,
+  "Codice": 13,
+  "CF": "PLNGPP83E14L736D",
+  "Nome": "Giuseppe",
+  "Cognome": "Paolini",
+  "DataNasc": {
+    "$date": "1983-05-13T22:00:00.000Z"
+  },
+  "Skill": "centrale telefonica",
+  "Via": "via Quasimodo",
+  "Ncivico": 11,
+  "Cap": 34023,
+  "Citta": "Venezia",
+  "NguastiRip": 0,
+  "Contratto": {
+    "Codice": "CD00000013",
+    "Data": {
+      "$date": "2014-01-23T00:00:00.000Z"
+    },
+    "Tipo": "determinato",
+    "Durata": 24,
+    "Stato": "cessato"
+  },
+  "Riparazioni": []
+},{
+  "_id": 14,
+  "Codice": 14,
+  "CF": "RGGSST80P13C351Y",
+  "Nome": "Sebastiano",
+  "Cognome": "Ruggeri",
+  "DataNasc": {
+    "$date": "1980-09-12T22:00:00.000Z"
+  },
+  "Skill": "centrale telefonica",
+  "Via": "via Parini",
+  "Ncivico": 20,
+  "Cap": 96312,
+  "Citta": "Catania",
+  "NguastiRip": 0,
+  "Contratto": {
+    "Codice": "CD00000014",
+    "Data": {
+      "$date": "2018-11-29T00:00:00.000Z"
+    },
+    "Tipo": "indeterminato",
+    "Durata": null,
+    "Stato": "attivo"
+  },
+  "Riparazioni": []
+},{
+  "_id": 15,
+  "Codice": 15,
+  "CF": "RNLLVI75H02A944G",
+  "Nome": "Livio",
+  "Cognome": "Rinaldi",
+  "DataNasc": {
+    "$date": "1975-06-01T22:00:00.000Z"
+  },
+  "Skill": "centrale telefonica",
+  "Via": "via Leonardi",
+  "Ncivico": 21,
+  "Cap": 45025,
+  "Citta": "Bologna",
+  "NguastiRip": 1,
+  "Contratto": {
+    "Codice": "CD00000015",
+    "Data": {
+      "$date": "2020-01-09T00:00:00.000Z"
+    },
+    "Tipo": "indeterminato",
+    "Durata": null,
+    "Stato": "attivo"
+  },
+  "Riparazioni": [
+    {
+      "CodGuasto": 17,
+      "Stato": "effettuata"
+    }
+  ]
+},{
+  "_id": 16,
+  "Codice": 16,
+  "CF": "KTSSHL10S41F842Y",
+  "Nome": "Shiuli",
+  "Cognome": "Kateshi",
+  "DataNasc": {
+    "$date": "1997-11-14T21:00:00.000Z"
+  },
+  "Ruolo": "esterno",
+  "Skill": "base",
+  "Via": "via Caroci",
+  "Ncivico": 78,
+  "Cap": 73048,
+  "Citta": "Nardo",
+  "NguastiRip": 0,
+  "Contratto": {
+    "Codice": "CD00000016",
+    "Data": {
+      "$date": "2023-05-20T00:00:00.000Z"
+    },
+    "Tipo": "indeterminato",
+    "Durata": null,
+    "Stato": "attivo"
+  },
+  "Riparazioni": []
+}]

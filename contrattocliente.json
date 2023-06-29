@@ -1,0 +1,1002 @@
+[{
+  "_id": "CC00000001",
+  "Codice": "CC00000001",
+  "Data": {
+    "$date": "2017-12-11T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2019-12-11T00:00:00.000Z"
+  },
+  "MetodoPag": "c/c",
+  "TipoCollegamento": "FTTC",
+  "CodiceMigrazione": "ACX9583103948271A",
+  "ViaForn": "via Romani",
+  "NcivForn": 15,
+  "CAPForn": 20019,
+  "CittaForn": "Milano",
+  "NomeOff": "Absolute VDSL",
+  "CodModem": "HG3452LKJ12",
+  "Stato": "attivo",
+  "Cliente": {
+    "Codice": 1,
+    "Fascia": "Residenziale",
+    "ViaFatt": "via Romani",
+    "NcivicoFatt": 15,
+    "CAPFatt": 20019,
+    "CittaFatt": "Milano",
+    "Tipo": "privato",
+    "PIVAoCF": "RSSMRA80A01F205X",
+    "Nome": "Mario",
+    "Cognome": "Rossi",
+    "DataNasc": {
+      "$date": "1979-12-31T23:00:00.000Z"
+    },
+    "RagSoc": null,
+    "NomeAz": null,
+    "NcontrattiAss": 1
+  },
+  "Bollette": [
+    {
+      "Nfattura": 1,
+      "Data": {
+        "$date": "2018-02-12T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2018-02-21T23:00:00.000Z"
+      },
+      "Periodo": "11/01/2018-11/02/2018",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 2,
+      "Data": {
+        "$date": "2020-12-12T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-12-21T23:00:00.000Z"
+      },
+      "Periodo": "11/11/2020-11/12/2020",
+      "StatoPag": "effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Absolute VDSL",
+    "CostoMens": {
+      "$numberDecimal": "19.90"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "25.90"
+    }
+  }
+},{
+  "_id": "CC00000002",
+  "Codice": "CC00000002",
+  "Data": {
+    "$date": "2016-12-11T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2018-12-11T00:00:00.000Z"
+  },
+  "MetodoPag": "bollettino",
+  "TipoCollegamento": "ADSL",
+  "CodiceMigrazione": "XJE9128374650193Q",
+  "ViaForn": "via Battisti",
+  "NcivForn": 25,
+  "CAPForn": 61121,
+  "CittaForn": "Pesaro",
+  "NomeOff": "Ultra ADSL",
+  "CodModem": "AK2098DLK89",
+  "Stato": "cessato",
+  "Cliente": {
+    "Codice": 2,
+    "Fascia": "Residenziale",
+    "ViaFatt": "via Battisti",
+    "NcivicoFatt": 25,
+    "CAPFatt": 61121,
+    "CittaFatt": "Pesaro",
+    "Tipo": "privato",
+    "PIVAoCF": "BNCCSN96R48G479Q",
+    "Nome": "Cassandra",
+    "Cognome": "Bianchi",
+    "DataNasc": {
+      "$date": "1996-10-07T22:00:00.000Z"
+    },
+    "RagSoc": null,
+    "NomeAz": null,
+    "NcontrattiAss": 2
+  },
+  "Bollette": [
+    {
+      "Nfattura": 3,
+      "Data": {
+        "$date": "2017-01-12T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2017-01-21T23:00:00.000Z"
+      },
+      "Periodo": "11/12/2016-11/01/2017",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 4,
+      "Data": {
+        "$date": "2019-02-12T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2019-02-21T23:00:00.000Z"
+      },
+      "Periodo": "11/01/2019-11/02/2019",
+      "StatoPag": "effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Ultra ADSL",
+    "CostoMens": {
+      "$numberDecimal": "15.99"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "18.90"
+    }
+  }
+},{
+  "_id": "CC00000003",
+  "Codice": "CC00000003",
+  "Data": {
+    "$date": "2019-02-02T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2019-02-02T00:00:00.000Z"
+  },
+  "MetodoPag": "c/c",
+  "TipoCollegamento": "FTTC",
+  "CodiceMigrazione": "AKO0294817503294P",
+  "ViaForn": "via Battisti",
+  "NcivForn": 25,
+  "CAPForn": 61121,
+  "CittaForn": "Pesaro",
+  "NomeOff": "Ultrainternet Fibra",
+  "CodModem": "AZ6057KOJ23",
+  "Stato": "attivo",
+  "Cliente": {
+    "Codice": 2,
+    "Fascia": "Residenziale",
+    "ViaFatt": "via Battisti",
+    "NcivicoFatt": 25,
+    "CAPFatt": 61121,
+    "CittaFatt": "Pesaro",
+    "Tipo": "privato",
+    "PIVAoCF": "BNCCSN96R48G479Q",
+    "Nome": "Cassandra",
+    "Cognome": "Bianchi",
+    "DataNasc": {
+      "$date": "1996-10-07T22:00:00.000Z"
+    },
+    "RagSoc": null,
+    "NomeAz": null,
+    "NcontrattiAss": 2
+  },
+  "Bollette": [
+    {
+      "Nfattura": 5,
+      "Data": {
+        "$date": "2020-01-03T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-01-12T23:00:00.000Z"
+      },
+      "Periodo": "02/12/2019-02/01/2020",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 6,
+      "Data": {
+        "$date": "2020-07-03T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-07-12T22:00:00.000Z"
+      },
+      "Periodo": "02/06/2020-02/07/2020",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 7,
+      "Data": {
+        "$date": "2021-01-03T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2021-01-12T23:00:00.000Z"
+      },
+      "Periodo": "02/12/2020-02/01/2021",
+      "StatoPag": "effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Ultrainternet Fibra",
+    "CostoMens": {
+      "$numberDecimal": "27.99"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "25.90"
+    }
+  }
+},{
+  "_id": "CC00000004",
+  "Codice": "CC00000004",
+  "Data": {
+    "$date": "2018-05-02T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2020-05-02T00:00:00.000Z"
+  },
+  "MetodoPag": "c/c",
+  "TipoCollegamento": "ADSL",
+  "CodiceMigrazione": "AJW0739217403284Z",
+  "ViaForn": "via Leotti",
+  "NcivForn": 21,
+  "CAPForn": 98754,
+  "CittaForn": "Ancona",
+  "NomeOff": "Absolute ADSL",
+  "CodModem": "FD5466OHT23",
+  "Stato": "cessato",
+  "Cliente": {
+    "Codice": 4,
+    "Fascia": "Residenziale",
+    "ViaFatt": "via Leotti",
+    "NcivicoFatt": 21,
+    "CAPFatt": 98754,
+    "CittaFatt": "Ancona",
+    "Tipo": "privato",
+    "PIVAoCF": "NGLGLN93S46A271Q",
+    "Nome": "Giuliana",
+    "Cognome": "Angeli",
+    "DataNasc": {
+      "$date": "1993-11-05T23:00:00.000Z"
+    },
+    "RagSoc": null,
+    "NomeAz": null,
+    "NcontrattiAss": 2
+  },
+  "Bollette": [
+    {
+      "Nfattura": 8,
+      "Data": {
+        "$date": "2019-12-03T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2019-12-12T23:00:00.000Z"
+      },
+      "Periodo": "02/11/2019-02/12/2019",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 9,
+      "Data": {
+        "$date": "2020-12-03T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-12-12T23:00:00.000Z"
+      },
+      "Periodo": "02/11/2020-02/12/2020",
+      "StatoPag": "effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Absolute ADSL",
+    "CostoMens": {
+      "$numberDecimal": "29.90"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "20.90"
+    }
+  }
+},{
+  "_id": "CC00000005",
+  "Codice": "CC00000005",
+  "Data": {
+    "$date": "2020-11-22T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2022-11-22T00:00:00.000Z"
+  },
+  "MetodoPag": "c/c",
+  "TipoCollegamento": "FTTH",
+  "CodiceMigrazione": "JHY8675935183921E",
+  "ViaForn": "via Massimi",
+  "NcivForn": 20,
+  "CAPForn": 60024,
+  "CittaForn": "Milano Marittima",
+  "NomeOff": "Ultrainternet Fibra",
+  "CodModem": "KJ5032WSA18",
+  "Stato": "attivo",
+  "Cliente": {
+    "Codice": 4,
+    "Fascia": "Residenziale",
+    "ViaFatt": "via Leotti",
+    "NcivicoFatt": 21,
+    "CAPFatt": 98754,
+    "CittaFatt": "Ancona",
+    "Tipo": "privato",
+    "PIVAoCF": "NGLGLN93S46A271Q",
+    "Nome": "Giuliana",
+    "Cognome": "Angeli",
+    "DataNasc": {
+      "$date": "1993-11-05T23:00:00.000Z"
+    },
+    "RagSoc": null,
+    "NomeAz": null,
+    "NcontrattiAss": 2
+  },
+  "Bollette": [
+    {
+      "Nfattura": 10,
+      "Data": {
+        "$date": "2020-12-23T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2021-01-01T23:00:00.000Z"
+      },
+      "Periodo": "22/11/2020-22/12/2020",
+      "StatoPag": "effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Ultrainternet Fibra",
+    "CostoMens": {
+      "$numberDecimal": "27.99"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "25.90"
+    }
+  }
+},{
+  "_id": "CC00000006",
+  "Codice": "CC00000006",
+  "Data": {
+    "$date": "2019-03-17T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2021-03-17T00:00:00.000Z"
+  },
+  "MetodoPag": "bollettino",
+  "TipoCollegamento": "ADSL",
+  "CodiceMigrazione": "UHT1946392758103K",
+  "ViaForn": "via Leopardi",
+  "NcivForn": 45,
+  "CAPForn": 60234,
+  "CittaForn": "Trieste",
+  "NomeOff": "Ultra ADSL",
+  "CodModem": "LE6784WQO20",
+  "Stato": "attivo",
+  "Cliente": {
+    "Codice": 5,
+    "Fascia": "Residenziale",
+    "ViaFatt": "via Leopardi",
+    "NcivicoFatt": 45,
+    "CAPFatt": 60234,
+    "CittaFatt": "Trieste",
+    "Tipo": "privato",
+    "PIVAoCF": "GLLLSS67D05L424O",
+    "Nome": "Alessio",
+    "Cognome": "Gialli",
+    "DataNasc": {
+      "$date": {
+        "$numberLong": "-86576400000"
+      }
+    },
+    "RagSoc": null,
+    "NomeAz": null,
+    "NcontrattiAss": 1
+  },
+  "Bollette": [
+    {
+      "Nfattura": 11,
+      "Data": {
+        "$date": "2020-12-18T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-12-27T23:00:00.000Z"
+      },
+      "Periodo": "17/11/2020-17/12/2020",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 59,
+      "Data": {
+        "$date": "2023-05-10T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2023-05-19T23:00:00.000Z"
+      },
+      "Periodo": "10/04/2023-10/05/2023",
+      "StatoPag": "effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Ultra ADSL",
+    "CostoMens": {
+      "$numberDecimal": "15.99"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "18.90"
+    }
+  }
+},{
+  "_id": "CC00000008",
+  "Codice": "CC00000008",
+  "Data": {
+    "$date": "2020-12-19T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2020-12-19T00:00:00.000Z"
+  },
+  "MetodoPag": "c/c",
+  "TipoCollegamento": "FTTC",
+  "CodiceMigrazione": "UHS1958352748192A",
+  "ViaForn": "via Rovereto",
+  "NcivForn": 23,
+  "CAPForn": 63965,
+  "CittaForn": "Genova",
+  "NomeOff": "Super Fibra",
+  "CodModem": "OE4578TRE44",
+  "Stato": "attivo",
+  "Cliente": {
+    "Codice": 6,
+    "Fascia": "Residenziale",
+    "ViaFatt": "via Rovereto",
+    "NcivicoFatt": 23,
+    "CAPFatt": 63965,
+    "CittaFatt": "Genova",
+    "Tipo": "privato",
+    "PIVAoCF": "FSCWTR84C27D969F",
+    "Nome": "Walter",
+    "Cognome": "Foschi",
+    "DataNasc": {
+      "$date": "1984-03-26T22:00:00.000Z"
+    },
+    "RagSoc": null,
+    "NomeAz": null,
+    "NcontrattiAss": 1
+  },
+  "Bollette": [],
+  "Offerta": {
+    "Nome": "Super Fibra",
+    "CostoMens": {
+      "$numberDecimal": "28.99"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "25.90"
+    }
+  }
+},{
+  "_id": "CC00000009",
+  "Codice": "CC00000009",
+  "Data": {
+    "$date": "2018-11-04T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2018-11-04T00:00:00.000Z"
+  },
+  "MetodoPag": "bollettino",
+  "TipoCollegamento": "FTTC",
+  "CodiceMigrazione": "SJX9462917300948I",
+  "ViaForn": "via Costantini",
+  "NcivForn": 57,
+  "CAPForn": 35121,
+  "CittaForn": "Padova",
+  "NomeOff": "Absolute VDSL",
+  "CodModem": "OT3209LIU11",
+  "Stato": "attivo",
+  "Cliente": {
+    "Codice": 8,
+    "Fascia": "Affari",
+    "ViaFatt": "via Costantini",
+    "NcivicoFatt": 57,
+    "CAPFatt": 35121,
+    "CittaFatt": "Padova",
+    "Tipo": "azienda",
+    "PIVAoCF": "49663255777",
+    "Nome": null,
+    "Cognome": null,
+    "DataNasc": null,
+    "RagSoc": "s.r.l.",
+    "NomeAz": "Bar Dario s.r.l.",
+    "NcontrattiAss": 1
+  },
+  "Bollette": [
+    {
+      "Nfattura": 13,
+      "Data": {
+        "$date": "2019-07-05T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2019-07-14T22:00:00.000Z"
+      },
+      "Periodo": "04/06/2019-04/07/2019",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 14,
+      "Data": {
+        "$date": "2020-03-05T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-03-14T23:00:00.000Z"
+      },
+      "Periodo": "04/02/2020-04/03/2020",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 15,
+      "Data": {
+        "$date": "2021-01-05T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2021-01-14T23:00:00.000Z"
+      },
+      "Periodo": "04/12/2020-04/01/2021",
+      "StatoPag": "non effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Absolute VDSL",
+    "CostoMens": {
+      "$numberDecimal": "19.90"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "25.90"
+    }
+  }
+},{
+  "_id": "CC00000010",
+  "Codice": "CC00000010",
+  "Data": {
+    "$date": "2020-05-20T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2023-05-20T00:00:00.000Z"
+  },
+  "MetodoPag": "c/c",
+  "TipoCollegamento": "FTTC",
+  "CodiceMigrazione": "SWD5739281029167G",
+  "ViaForn": "via Paride",
+  "NcivForn": 76,
+  "CAPForn": 64100,
+  "CittaForn": "Teramo",
+  "NomeOff": "Piu Fibra",
+  "CodModem": "PL3065ASW13",
+  "Stato": "attivo",
+  "Cliente": {
+    "Codice": 10,
+    "Fascia": "Affari",
+    "ViaFatt": "via Paride",
+    "NcivicoFatt": 76,
+    "CAPFatt": 64100,
+    "CittaFatt": "Teramo",
+    "Tipo": "azienda",
+    "PIVAoCF": "75902453167",
+    "Nome": null,
+    "Cognome": null,
+    "DataNasc": null,
+    "RagSoc": "s.n.c.",
+    "NomeAz": "KitKet Cioccolato s.n.c.",
+    "NcontrattiAss": 1
+  },
+  "Bollette": [
+    {
+      "Nfattura": 16,
+      "Data": {
+        "$date": "2020-08-21T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-08-30T22:00:00.000Z"
+      },
+      "Periodo": "20/07/2020-20/08/2020",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 17,
+      "Data": {
+        "$date": "2020-12-21T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-12-30T23:00:00.000Z"
+      },
+      "Periodo": "20/11/2020-20/12/2020",
+      "StatoPag": "effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Piu Fibra",
+    "CostoMens": {
+      "$numberDecimal": "24.99"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "27.90"
+    }
+  }
+},{
+  "_id": "CC00000011",
+  "Codice": "CC00000011",
+  "Data": {
+    "$date": "2016-08-25T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2020-08-25T00:00:00.000Z"
+  },
+  "MetodoPag": "bollettino",
+  "TipoCollegamento": "ADSL",
+  "CodiceMigrazione": "KYG9563917283649D",
+  "ViaForn": "via Vittoria",
+  "NcivForn": 95,
+  "CAPForn": 10122,
+  "CittaForn": "Torino",
+  "NomeOff": "Absolute ADSL",
+  "CodModem": "PO3309KKF66",
+  "Stato": "cessato",
+  "Cliente": {
+    "Codice": 11,
+    "Fascia": "Affari",
+    "ViaFatt": "via Vittoria",
+    "NcivicoFatt": 95,
+    "CAPFatt": 10122,
+    "CittaFatt": "Torino",
+    "Tipo": "azienda",
+    "PIVAoCF": "78446952000",
+    "Nome": null,
+    "Cognome": null,
+    "DataNasc": null,
+    "RagSoc": "s.n.c.",
+    "NomeAz": "Katy Fashion s.n.c.",
+    "NcontrattiAss": 2
+  },
+  "Bollette": [
+    {
+      "Nfattura": 18,
+      "Data": {
+        "$date": "2016-09-26T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2016-10-05T22:00:00.000Z"
+      },
+      "Periodo": "25/08/2016-25/09/2016",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 19,
+      "Data": {
+        "$date": "2020-08-26T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-09-04T22:00:00.000Z"
+      },
+      "Periodo": "25/07/2020-25/08/2020",
+      "StatoPag": "effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Absolute ADSL",
+    "CostoMens": {
+      "$numberDecimal": "29.90"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "20.90"
+    }
+  }
+},{
+  "_id": "CC00000012",
+  "Codice": "CC00000012",
+  "Data": {
+    "$date": "2020-08-25T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2022-08-25T00:00:00.000Z"
+  },
+  "MetodoPag": "c/c",
+  "TipoCollegamento": "FTTH",
+  "CodiceMigrazione": "SWD5739281029167G",
+  "ViaForn": "via Vittoria",
+  "NcivForn": 95,
+  "CAPForn": 10122,
+  "CittaForn": "Torino",
+  "NomeOff": "Super Fibra",
+  "CodModem": "TU5503EOQ45",
+  "Stato": "attivo",
+  "Cliente": {
+    "Codice": 11,
+    "Fascia": "Affari",
+    "ViaFatt": "via Vittoria",
+    "NcivicoFatt": 95,
+    "CAPFatt": 10122,
+    "CittaFatt": "Torino",
+    "Tipo": "azienda",
+    "PIVAoCF": "78446952000",
+    "Nome": null,
+    "Cognome": null,
+    "DataNasc": null,
+    "RagSoc": "s.n.c.",
+    "NomeAz": "Katy Fashion s.n.c.",
+    "NcontrattiAss": 2
+  },
+  "Bollette": [
+    {
+      "Nfattura": 20,
+      "Data": {
+        "$date": "2020-10-26T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-11-04T23:00:00.000Z"
+      },
+      "Periodo": "25/09/2020-25/10/2020",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 21,
+      "Data": {
+        "$date": "2020-12-26T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2021-01-04T23:00:00.000Z"
+      },
+      "Periodo": "25/11/2020-25/12/2020",
+      "StatoPag": "non effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Super Fibra",
+    "CostoMens": {
+      "$numberDecimal": "28.99"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "25.90"
+    }
+  }
+},{
+  "_id": "CC00000013",
+  "Codice": "CC00000013",
+  "Data": {
+    "$date": "2020-04-15T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2020-04-15T00:00:00.000Z"
+  },
+  "MetodoPag": "c/c",
+  "TipoCollegamento": "ADSL",
+  "CodiceMigrazione": "EFR9483617302947K",
+  "ViaForn": "via verga",
+  "NcivForn": 789,
+  "CAPForn": 34,
+  "CittaForn": "Roma",
+  "NomeOff": "Ultra ADSL",
+  "CodModem": "PT5743QIU02",
+  "Stato": "attivo",
+  "Cliente": {
+    "Codice": 12,
+    "Fascia": "Affari",
+    "ViaFatt": "via Boccaccio",
+    "NcivicoFatt": 88,
+    "CAPFatt": 67123,
+    "CittaFatt": "Firenze",
+    "Tipo": "azienda",
+    "PIVAoCF": "42645589605",
+    "Nome": null,
+    "Cognome": null,
+    "DataNasc": null,
+    "RagSoc": "s.a.s.",
+    "NomeAz": "Macrosoft s.a.s.",
+    "NcontrattiAss": 1
+  },
+  "Bollette": [
+    {
+      "Nfattura": 22,
+      "Data": {
+        "$date": "2020-07-16T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-07-25T22:00:00.000Z"
+      },
+      "Periodo": "15/06/2020-15/07/2020",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 23,
+      "Data": {
+        "$date": "2020-12-16T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-12-25T23:00:00.000Z"
+      },
+      "Periodo": "15/11/2020-15/12/2020",
+      "StatoPag": "effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Ultra ADSL",
+    "CostoMens": {
+      "$numberDecimal": "15.99"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "18.90"
+    }
+  }
+},{
+  "_id": "CC00000014",
+  "Codice": "CC00000014",
+  "Data": {
+    "$date": "2015-05-25T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2018-05-25T00:00:00.000Z"
+  },
+  "MetodoPag": "bollettino",
+  "TipoCollegamento": "ADSL",
+  "CodiceMigrazione": "XHE9674920183922D",
+  "ViaForn": "via Primi",
+  "NcivForn": 44,
+  "CAPForn": 35121,
+  "CittaForn": "Padova",
+  "NomeOff": "Ultra ADSL",
+  "CodModem": "AJ2835IYG44",
+  "Stato": "cessato",
+  "Cliente": {
+    "Codice": 14,
+    "Fascia": "Alta",
+    "ViaFatt": "via Primi",
+    "NcivicoFatt": 44,
+    "CAPFatt": 35121,
+    "CittaFatt": "Padova",
+    "Tipo": "azienda",
+    "PIVAoCF": "44444598756",
+    "Nome": null,
+    "Cognome": null,
+    "DataNasc": null,
+    "RagSoc": "s.p.a.",
+    "NomeAz": "Canod s.p.a.",
+    "NcontrattiAss": 1
+  },
+  "Bollette": [
+    {
+      "Nfattura": 24,
+      "Data": {
+        "$date": "2017-06-26T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2017-07-05T22:00:00.000Z"
+      },
+      "Periodo": "25/05/2017-25/06/2017",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 25,
+      "Data": {
+        "$date": "2019-03-26T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2019-04-04T22:00:00.000Z"
+      },
+      "Periodo": "25/02/2019-25/03/2019",
+      "StatoPag": "non effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Ultra ADSL",
+    "CostoMens": {
+      "$numberDecimal": "15.99"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "18.90"
+    }
+  }
+},{
+  "_id": "CC00000015",
+  "Codice": "CC00000015",
+  "Data": {
+    "$date": "2019-02-11T00:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2022-02-11T00:00:00.000Z"
+  },
+  "MetodoPag": "c/c",
+  "TipoCollegamento": "FTTH",
+  "CodiceMigrazione": "DTT9563829154437A",
+  "ViaForn": "via Secondi",
+  "NcivForn": 98,
+  "CAPForn": 67801,
+  "CittaForn": "Mantova",
+  "NomeOff": "Piu Fibra",
+  "CodModem": "GT4738AZU47",
+  "Stato": "attivo",
+  "Cliente": {
+    "Codice": 15,
+    "Fascia": "Alta",
+    "ViaFatt": "via Secondi",
+    "NcivicoFatt": 98,
+    "CAPFatt": 67801,
+    "CittaFatt": "Mantova",
+    "Tipo": "azienda",
+    "PIVAoCF": "44324590811",
+    "Nome": null,
+    "Cognome": null,
+    "DataNasc": null,
+    "RagSoc": "s.p.a.",
+    "NomeAz": "Risparmio Cose s.p.a.",
+    "NcontrattiAss": 1
+  },
+  "Bollette": [
+    {
+      "Nfattura": 26,
+      "Data": {
+        "$date": "2020-09-12T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-09-21T22:00:00.000Z"
+      },
+      "Periodo": "11/08/2020-11/09/2020",
+      "StatoPag": "effettuato"
+    },
+    {
+      "Nfattura": 27,
+      "Data": {
+        "$date": "2020-12-12T00:00:00.000Z"
+      },
+      "Scadenza": {
+        "$date": "2020-12-21T23:00:00.000Z"
+      },
+      "Periodo": "11/11/2020-11/12/2020",
+      "StatoPag": "effettuato"
+    }
+  ],
+  "Offerta": {
+    "Nome": "Piu Fibra",
+    "CostoMens": {
+      "$numberDecimal": "24.99"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "27.90"
+    }
+  }
+},{
+  "_id": "CC00000016",
+  "Codice": "CC00000016",
+  "Data": {
+    "$date": "2023-05-27T22:00:00.000Z"
+  },
+  "FineVincolo": {
+    "$date": "2026-05-28T00:00:00.000Z"
+  },
+  "MetodoPag": "c/c",
+  "TipoCollegamento": "ADSL",
+  "CodiceMigrazione": "JYY9560029191466W",
+  "ViaForn": "via Salocchi",
+  "NcivForn": 2,
+  "CAPForn": 63965,
+  "CittaForn": "Genova",
+  "NomeOff": "Absolute ADSL",
+  "CodModem": "WW4744AKK44",
+  "Stato": "attivo",
+  "Cliente": {
+    "Codice": 15,
+    "Fascia": "Alta",
+    "ViaFatt": "via Duodeno",
+    "NcivicoFatt": 98,
+    "CAPFatt": 67801,
+    "CittaFatt": "Mantova",
+    "Tipo": "azienda",
+    "PIVAoCF": "44000590811",
+    "Nome": null,
+    "Cognome": null,
+    "DataNasc": null,
+    "RagSoc": "s.p.a.",
+    "NomeAz": "Sapori Buoni s.p.a.",
+    "NcontrattiAss": 1
+  },
+  "Bollette": [],
+  "Offerta": {
+    "Nome": "Absolute ADSL",
+    "CostoMens": {
+      "$numberDecimal": "29.90"
+    },
+    "CostoAtt": {
+      "$numberDecimal": "20.90"
+    }
+  }
+}]
