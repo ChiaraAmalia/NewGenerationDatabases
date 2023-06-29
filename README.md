@@ -1,5 +1,5 @@
 # NewGenerationDatabases
-L'obiettivo di tale progetto è la progettazione del database ZeusPhone utilizzando un'architettura NoSQL. La progettazione della base di dati ZeusPhone è disponibile al seguente [Link](https://github.com/ChiaraAmalia/Progetto-Database).
+L'obiettivo di tale progetto è la progettazione del database ZeusPhone utilizzando un'architettura NoSQL. La progettazione della base di dati ZeusPhone è disponibile al seguente [link](https://github.com/ChiaraAmalia/Progetto-Database).
 
 ## Da cosa siamo partiti
 Siamo partiti da una **Base di dati relazionale** finalizzata alla gestione di un operatore nel settore telecomunicazioni.
@@ -53,4 +53,19 @@ Di seguito sono riportati gli aggregati finali:
 <p align="center">Aggregati finali</p>
 
 ## Rappresentazione degli aggregati
-Al fine dei risultati ottenuti
+Al fine dei risultati ottenuti, la soluzione ottimale si ottiene considerando:
++ 1° aggregato: costituito da **CONTRATTO CLIENTE**, che al suo interno contiene **CLIENTE**, **BOLLETTA**, **OFFERTA**;
++ 2° aggregato: costituito da **TECNICO**, che al suo interno contiene **CONTRATTO DIPENDENTE**;
++ 3° aggregato: costituito da **IMPIANTO**, che al suo interno contiene **GUASTO**.
+
+È stato adottato **NoAM** come modello di rappresentazione per gli aggregati ed utilizzata la strategia di rappresentazione **ETF**. Il modello **NoAM** è stato poi tradotto in modello **NoSQL**.
+
+## Implementazione
+A seguito della fase di progettazione, si è proceduto nell'implementazione del database **NoSQL**:
++ Traduzione del database e dei dati in formato **SQL** in database **NoSQL** mediante **Studio3T**
++ Esecuzione delle query.
+
+Maggiore documentazione e lo sviluppo delle query sono reperibili nella seguente [relazione](https://github.com/ChiaraAmalia/NewGenerationDatabases/blob/main/Progetto_NGDB_2023.pdf).
+
+## Collaboratori
+
